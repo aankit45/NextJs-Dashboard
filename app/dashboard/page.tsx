@@ -1,4 +1,7 @@
 const Page = () => {
-    return <p>Dashboard</p>
+    return (
+        <p>Dashboard</p>
+    )
 }
+Page.displayName = "Page";
 export default Page;
