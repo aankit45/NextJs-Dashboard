@@ -1,7 +1,3 @@
-const Page = () => {
-    return (
-        <p>Invoices Page</p>
-    )
-}
-Page.displayName = "Page";
-export default Page;
+export default function Page() {
+    return <p>Invoices Page</p>;
+  }
